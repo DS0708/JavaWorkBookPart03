@@ -4,42 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdc785e-5e5f-49d3-83c4-b21f9914aa8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/3-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoModifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoReadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRemoveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/TodoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/domain/TodoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dto/TodoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/util/MapperUtil.java" afterDir="false" />
+    <list default="true" id="9bdc785e-5e5f-49d3-83c4-b21f9914aa8e" name="Changes" comment="first commit">
       <change afterPath="$PROJECT_DIR$/src/main/resources/application-db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/read.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/ConnectTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/TodoDAOTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/service/TodoServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoModifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoModifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoReadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRemoveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/controller/TodoRemoveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/ConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/TodoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dao/TodoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/domain/TodoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/domain/TodoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/dto/TodoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/w2/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/w2/util/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zerock/dao/ConnectTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/ConnectTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zerock/dao/TodoDAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zerock/dao/TodoDAOTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zerock/service/TodoServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zerock/service/TodoServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +55,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2dOVJdfiMP82rombkodugJZWJLc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -92,6 +76,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -329,8 +314,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709879042076</updated>
-      <workItem from="1709879043166" duration="1005000" />
+      <workItem from="1709879043166" duration="1393000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1709880227485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709880227485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,5 +332,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

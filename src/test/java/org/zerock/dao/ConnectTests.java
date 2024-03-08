@@ -5,7 +5,7 @@ import com.zaxxer.hikari.HikariDataSource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.zerock.jdbcex.dao.ConnectionUtil;
+import org.zerock.w2.dao.ConnectionUtil;
 
 import java.io.FileInputStream;
 import java.sql.Connection;
