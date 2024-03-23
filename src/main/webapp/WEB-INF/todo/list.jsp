@@ -7,9 +7,12 @@
 <body>
 <h1>Todo List</h1>
 
+<h2>${loginInfo}</h2>
+<h2>${loginInfo.mname}</h2>
+
 <ul>
   <c:forEach items="${dtoList}" var="dto">
-    <li>
+    <li>가
       <span><a href="/todo/read?tno=${dto.tno}">${dto.tno}</a></span>
       <span>${dto.title}</span>
       <span>${dto.dueDate}</span>
