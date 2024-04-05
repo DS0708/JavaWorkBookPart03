@@ -6,11 +6,9 @@ import org.zerock.w2.service.MemberService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import java.io.IOException;
+import java.util.UUID;
 
 @WebServlet("/login")
 @Log4j2
@@ -29,8 +27,27 @@ public class LoginController extends HttpServlet {
     String mid = req.getParameter("mid");
     String mpw = req.getParameter("mpw");
 
+    //자동 로그인 처리
+    String auto = req.getParameter("auto");
+    boolean rememberMe = auto != null && auto.equals("on");
+
     try{
       MemberDTO memberDTO = MemberService.INSTANCE.login(mid,mpw);
+
+      if (rememberMe){
+        //uuid 생성
+        String uuid = UUID.randomUUID().toString();
+        //DB에 해당 member의 uuid를 update
+        MemberService.INSTANCE.updateUuid(mid,uuid);
+        //DTO에도 추가
+        memberDTO.setUuid(uuid);
+        //쿠키 생성 및 전송
+        Cookie rememberCookie = new Cookie("remember-me", uuid);
+        rememberCookie.setMaxAge(60*60*24*7);   //쿠키의 유효기간은 1주일
+        rememberCookie.setPath("/");
+        resp.addCookie(rememberCookie);
+      }
+
       HttpSession session = req.getSession();
       session.setAttribute("loginInfo",memberDTO);
       resp.sendRedirect("/todo/list");
